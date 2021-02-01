@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,100&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'IBM Plex Sans', sans-serif;
+	background: #ffffff;
+	background-image: url("https://free4kwallpapers.com/uploads/originals/2019/02/28/vaporwave-sunset-wallpaper.jpg");
+	background-size: 100%;
+
+}
+
+.container{
+	color: white;
+	position: absolute;
+	left: 6%;
+	top: 31%;
+}
+
+.container h1{
+	display: inline-block;
+	font-size: 40px;
+	border-bottom: 5px solid purple;
+	margin-bottom: 42px
+	
+}
+.box{
+	width: 100%;
+	border-bottom: 2px solid purple;
+	
+}
+.box i{
+	background:none;
+}
+.box input{
+	background: none;
+	display: inline-block;
+	padding: 12px;
+	font-size: 21px;
+	outline: none;
+	border: none;
+}
+.btn{
+	cursor: pointer;
+	outline: none;
+	margin: 12px 0;
+	padding: 10px 120px;
+	border: 12px green;
+	border-radius: 10px;
+	font-size: 18px;
+	background:none;
+	color: white;
+}
